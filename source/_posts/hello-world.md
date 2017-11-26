@@ -14,11 +14,13 @@ hexo help  # 查看帮助
 hexo version  #查看Hexo的版本
 hexo deploy -g  #生成加部署
 hexo server -g  #生成加预览
+hexo clean  #把public静态文件清空再重新生成部署
 命令的简写
 hexo n == hexo new
 hexo g == hexo generate
 hexo s == hexo server
 hexo d == hexo deploy
+hexo g -d == hexo generate hexo deploy
 ```
 
 ### 样式
