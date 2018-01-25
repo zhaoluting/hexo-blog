@@ -1,6 +1,7 @@
 ---
 title: Hello World
 date: 2017/6/15
+tags: hexo
 ---
 ## note 
 <div class="note info">博客使用了NEXT主题，特此贴上我的配置代码</div>
