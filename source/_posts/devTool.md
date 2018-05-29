@@ -2,6 +2,7 @@
 title: chrome调试指南
 date: 2017-10-12
 tags: chrome
+categories: 前端
 ---
 
 # 简介
@@ -24,10 +25,10 @@ tags: chrome
 > chrome浏览器的模拟移动设备和真实的设备相差不大，是非常好的选择。    
 
 ## HOW TO USE？
-![image](/image/device1_2.png)  
+![image](/image/devTool/device1_2.png)  
 
 除了上图标出的功能，右上角可以发现移动端调试的更多功能哦!  
-<img src="/image/device2.png" width="300"/>
+<img src="/image/devTool/device2.png" width="300"/>
 
 - Show device frame : 显示设备外壳
 - Show media queries : 显示媒体查询(对屏幕大小的判断生成响应式布局)
@@ -46,7 +47,7 @@ tags: chrome
 > 该面板可以用来查看、修改页面上的元素，包括DOM标签以及css样式的查看、修改(ctrl + z 可撤销修改)，还可以展示相关盒模型的图形信息。    
 
 ## HOW TO USE？
-![image](/image/elments.png)  
+![image](/image/devTool/elments.png)  
 
 ```
 🚩Tips：在 HTML DOM （文档对象模型）中，每个部分都是节点：  
@@ -59,7 +60,7 @@ Element 对象可以拥有类型为元素节点、文本节点、注释节点的
 元素也可以拥有属性，属性是属性节点。  
 ✔️总结：元素是元素节点，是节点中的一种，但元素节点中可以包含很多的节点。  
 ```
-![image](/image/elements1.png)
+![image](/image/devTool/elements1.png)
 
 点击箭头按钮可选择元素,激活后，Elements窗口会根据在页面中鼠标的位置自动移动到相应的代码段并显示相关信息。  
 
@@ -93,7 +94,7 @@ Element 对象可以拥有类型为元素节点、文本节点、注释节点的
 - Properties标签页: 全面地列出当前选中元素的属性；
 
 ### dom对象的辅助功能
-<img src="/image/elements2.png" width="300"/>
+<img src="/image/devTool/elements2.png" width="300"/>
 - Add attribute : 添加元素属性
 - Edit attribute : 编辑元素属性
 - Edit as HTML : 直接对元素的HTML进行编辑，所有的修改都会即时在页面上得到呈现
@@ -122,7 +123,7 @@ Element 对象可以拥有类型为元素节点、文本节点、注释节点的
 > 注： 当需要换到下一行而不是回车的时候，请按Shift+Enter。
 
 ## HOW TO USE？
-![image](/image/console.png)  
+![image](/image/devTool/console.png)  
 
 代码实例 | 用途
 ---|---
@@ -236,7 +237,7 @@ add(3);
 > 在源代码面板中设置断点来调试 JavaScript ，或者通过Workspaces（工作区）连接本地文件来使用开发者工具的实时编辑器。
 
 ## HOW TO USE？
-![image](/image/sources.png)  
+![image](/image/devTool/sources.png)  
 ### 区域①：Sources Panel 的左侧分别是 Sources 和 Content scripts和Snippets
 - Sources : 显示加载的JS、CSS、HTML资源列表，点击后会在区域2显示对应的源代码
     - Workspaces是Chrome DevTools的一个强大功能，这使DevTools变成了一个真正的IDE。只需打开Sources选项，然后右击左边面板的任何一个地方，选择Add Folder To Worskpace，或者只是把你的整个工程文件夹拖放入Developer Tool。
@@ -275,7 +276,7 @@ add(3);
 > 可以看到所有的资源请求，包括网络请求，图片资源，html,css，js文件等请求，可以根据需求筛选请求项，一般多用于网络请求的查看和分析，分析后端接口是否正确传输，获取的数据是否准确，请求头，请求参数的查看。
 
 ## HOW TO USE？
-![image](/image/network.png)  
+![image](/image/devTool/network.png)  
 ### 区域①：Controls工具栏
 用来控制Network的功能及外观,从左往右功能依次为：
 - (红色圆点)Record Network Log: 红色表示此时正在记录资源请求信息；
@@ -330,7 +331,7 @@ add(3);
 - DOMContentLoaded:页面文档完全加载并解析完毕之后，会触发DOMContentLoaded事件，它在两个地方都有体现：概览视窗的蓝色竖线，总览视窗的触发时间。
 - Load:当所有资源加载完成后触发的，它在三个地方有体现：概览视窗的红色竖线，请求列表视窗的红色竖线，总览视窗的触发时间。
 
-![image](/image/network2.png)  
+![image](/image/devTool/network2.png)  
 点击左侧某一个具体请求URL，可以看到该请求的详细HTTP请求情况：
 - Headers：请求头信息和响应头信息
 - Preview：预览结果，如果是文件可以查看这个文件；如果是图片可以预览这个图片；如果是从服务器返回来的JSON数据，可以查看格式话后的JSON
@@ -351,7 +352,7 @@ add(3);
 > 在 Chrome 57 之后时间线(Timeline)面板更名为性能(Performance)面板。
 
 ## HOW TO USE？
-![image](/image/performance2.png)  
+![image](/image/devTool/performance2.png)  
 使用 Chrome DevTools 的 Performance 面板记录程序运行时的所有行为，并用于加以分析是解决程序性能问题的最好方案。 由以下四个子面板构成：
 - 控制面板（Controls）: 开启记录，停止记录，配置记录期间需要记录的内容。
 - 概括（Overview）: 对页面表现（行为）的一个概述。
@@ -386,7 +387,7 @@ add(3);
 > 在 Chrome 57 之后分析（Profiles）面板更名为内存（Memory）面板。
 
 ## HOW TO USE？
-![image](/image/memory.png)  
+![image](/image/devTool/memory.png)  
 如果在页面中出现卡顿现象，可以使用 CPU 分析器，它准确地记录调用了哪些函数和每个函数花费的时间，
 - Take Heap Snapshot:创建堆快照用来显示网页上的JS对象和相关的DOM节点的内存分布情况。
     - 利用该工具你可以创建JS的堆快照、内存分析图、对比堆快照以及定位内存泄漏问题。
@@ -410,7 +411,7 @@ add(3);
 > 在 Chrome 52 之后资源(Resources)面板更名为应用(Application)面板. 该面板可以检查和修改IndexedDB与Web SQL数据库，本地和会话存储，cookie，应用程序缓存，图像，字体和样式表。 点击一次按钮即可清除所有存储、数据库、缓存和服务工作线程。
 
 ## HOW TO USE？
-![image](/image/application.png)  
+![image](/image/devTool/application.png)  
 - Local Storage : 如果你在开发过程中使用了local storage来存储键值对(KVPs)，那么你就可以通过Local Storage窗格来检查、新增、修改、删除这个键值对。
 - Application Cache : 你可以使用Application Cache窗格去查看通过Application Cache API创建的资源。
 - Frames : 将页面上的资源按frame类别进行组织显示。在资源上右击后在弹出菜单选择Reveal in Network Panel，就会跳转到Network面板并定位到该资源的位置。
@@ -422,7 +423,7 @@ add(3);
 > 使用 Security Overview 可以立即查看当前页面是否安全。 检查各个源以查看连接和证书详情（安全源）或找出具体哪些请求未受保护（非安全源）。
 
 ## HOW TO USE？
-![image](/image/security.png)  
+![image](/image/devTool/security.png)  
 - 如果网页是安全的，则会显示这样一条消息：This page is secure (valid HTTPS)。
     - 通过点击View certificate可以查看main origin的服务器证书信息。
     - 点击左侧可以查看指定源的连接和证书详情。
@@ -437,7 +438,7 @@ add(3);
 > 选中Performance, Best Practices, Accessibility, and Progressive Web App，点击Run按钮，将会对当前页面进行网络利用率和页面的性能优化作出诊断，并给出相应的优化建议。 这个对于优化前端页面、加速网页加载速度很有用（相当于Yslow）
 
 ## HOW TO USE？
-![image](/image/audits.png) 
+![image](/image/devTool/audits.png) 
 - Progressive Web App（在移动端利用提供的标准化框架，在网页应用中实现和原生应用相近的用户体验）: 检查网页是否符合PWA的标准。
 - Performance:检查网页加载时间
 - Best Practices : 检查页面是否遵循Google Web开发最佳实践
@@ -450,7 +451,7 @@ add(3);
 > 单击DevTools窗口右上角的“┇”按钮即可打开主菜单。
 
 ## HOW TO USE？
-<img src="/image/more.png" width="300"/>
+<img src="/image/devTool/more.png" width="300"/>
 - Dock side: 调整DevTools的位置
 - Show console drawer: 打开console的抽屉式选项卡
 - Search all files : 在所有文件中搜索
@@ -473,7 +474,7 @@ add(3);
 - Shortcuts:查看快捷键
 - Settings:打开设置面板
 
-![image](/image/more2.png) 
+![image](/image/devTool/more2.png) 
 - Preferences :首选项
     - Appearance:外观设置
         - Show third party URL badges:显示第三方URL标记？？？

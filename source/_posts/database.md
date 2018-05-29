@@ -2,6 +2,7 @@
 title: 面向前端的数据库指南
 date: 2018-03-08 13:25:10
 tags: sql
+categories: 前端
 ---
 # 数据库概览
 一般一个数据库系统（Database System）可分为数据库（Database）与数据管理系统（Database Management System，DBMS）两个部分。数据库就是按照数据结构来组织、存储和管理数据的仓库，管理这个数据库的软件就称之为数据库管理系统。[也可以更形象地类比成中药铺子。](https://www.zhihu.com/question/21091495/answer/17197897)

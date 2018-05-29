@@ -2,6 +2,7 @@
 title: Mac terminal入门篇
 date: 2018-01-25 21:36:26
 tags: shell
+categories: 系统
 ---
 ## 了解mac terminal（终端）
 
