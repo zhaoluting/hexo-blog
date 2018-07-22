@@ -155,7 +155,7 @@ clear()	|用 chrome 的 command line api 来清理控制台
 copy(document.body)	|在控制台获取到的内容复制到剪贴板
 document.designMode = "on"	|直接修改网页内容
 **monitor(function) 接收一个函数名作为参数，比如function a,每次a被执行了，都会在控制台输出一条信息，里面包含了函数的名称a及执行时所传入的参数。 而unmonitor(function)便是用来停止这一监听。**
-```
+``` javascript
 function sayHello(name) {
   alert('hello,' + name);
 }
@@ -165,7 +165,7 @@ unmonitor(sayHello);
 sayHello('zlttt');
 ```
 **调试一个方法，当该方法调用时会暂停并且在源码中定位，效果和断点类似。undebug可以停止调试。**
-```
+``` javascript
 function sayHello(name) {
     alert('hello,' + name); 
 }
@@ -174,7 +174,7 @@ sayHello('zlt');
 ```
 
 **记录次数**
-```
+``` javascript
 function hi(name) {
   console.count(name);
   return "hi " + name;
@@ -189,7 +189,7 @@ for(var i = 0; i < 10; i++) {
 ```
 
 **记录代码运行所花费的时间,评估某段代码或是某个函数的性能**
-```
+``` javascript
 console.time("神机妙算");
   (function () {
     for(var i = 0; i < 10; i++) {
@@ -204,7 +204,7 @@ console.time("神机妙算");
 console.timeEnd("神机妙算");
 ```
 **评估某段代码或是某个函数的性能,结果显示在 Memory面板的profile中**
- ```
+ ``` javascript
 console.profile("更高级的神机妙算");
 (function () {
     for(var i = 0; i < 10; i++) {
@@ -219,7 +219,7 @@ console.profile("更高级的神机妙算");
 console.profileEnd("更高级的神机妙算");
 ```
 **追踪函数的调用过程**
-```
+``` javascript
 function add(num) {
   if (0 < num) {
     console.trace("现在num的值为", num);

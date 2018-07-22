@@ -6,7 +6,7 @@ categories: 系统
 ---
 ## 了解mac terminal（终端）
 
-```
+``` bash
 system_profiler    #显示Mac的硬件和软件信息
 sw_vers            #显示OSX系统版本
 uname -av          #显示OS X Darwin内核版本
@@ -41,29 +41,29 @@ shell 是我们和系统内核指令打交道的一座桥梁,我们通过键盘�
 
 **可以通过以下命令查看安装了哪些shell（OS X 系统预装了zsh）**
 
-```
+``` bash
 cat /etc/shells
 ```
 
 **查看系统默认的shell**
-```
+``` bash
 echo $SHELL
 ```
 
 **将默认shell改成zsh**
-```
+``` bash
 chsh -s /bin/zsh
 ```
 > zsh是shell的一种，由于配置过于复杂，以至于很多人并不常用他。所以大多数Linux产品默认使用的都是bash shell。直到一个开源项目的出现[oh my zsh](http://ohmyz.sh)，github来管理zsh的配置和支持更多插件，使得zsh配置变得更容易，使用起来更加强大。以至于他有了个外号—**终极shell**。
 
 **安装oh my zsh**
-```
+``` bash
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 **配置文件路径：** ~/.zshrc
 
-```
+``` bash
 大部分配置都可以在配置文件中进行设置，这里大概翻译一下。
 
 # ZSH的环境变量
@@ -207,7 +207,7 @@ source $ZSH/oh-my-zsh.sh
 ## 基本命令
 ### 列出文件  
 
-```
+``` bash
 ls 参数 目录名        
 ```
 以下为常用参数，可组合使用。
@@ -222,14 +222,14 @@ ls 参数 目录名
 
 
 ### 转换目录     
-```
+``` bash
 pwd     #含义是“print working directory”，会显示当前目录的绝对路径。
 cd 路径  #改变当前目录到你指定的目录。不指定则会返回 home folder
 ```
 
 
 ### 打开文件目录或程序
-```
+``` bash
 open /Applications/Safari.app/  #打开应用
 open .  #打开当前目录。
 ```
@@ -237,7 +237,7 @@ open .  #打开当前目录。
 
 ### 建立新目录  
 
-```
+``` bash
 mkdir 目录名
 ```
 参数  | 含义
@@ -247,13 +247,13 @@ mkdir 目录名
  
  
 ### 新建文件
-```
+``` bash
 touch 文件名   #主要功能与时间戳有关，用来更新文件的访问和修改时间。如果文件不存在，会创建相应的空文件
 ```
 
 ### 拷贝文件
 
-```
+``` bash
 cp 参数 源文件 目标文件
 
 cp file /usr/men/tmp/file1  #将文件file复制到目录/usr/men/tmp下，并改名为file1
@@ -265,7 +265,7 @@ cp -i /usr/men m*.c /usr/zh #交互式地将目录/usr/men中的以m打头的所
 
 ### 删除文件  
 
-```
+``` bash
 rm  foo.txt        #删除一般文件  
 rm  -r  foofolder  #删除目录
 rm  -r  *          #删除当前目录下的所有文件及目录
@@ -279,7 +279,7 @@ rm  -r  *          #删除当前目录下的所有文件及目录
 
 ### 移动文件
 
-```
+``` bash
 mv file1 file2      #（若目标是文件名，则相当于文件改名）将文件 file1 改名为 file2。
 mv file1 file2 /tmp #将文件 file1 和文件 file2 移动到目录 /tmp 下
 ```
@@ -299,7 +299,7 @@ nano  |小巧自由的舒适型编辑器
 
 #### [nano](http://man.linuxde.net/nano)
 
-```
+``` bash
 nano 路径+文件名 #若文件存在将打开这个文件；不存在则会创建新文件并打开。
 ```
 
@@ -337,7 +337,7 @@ ZZ     |命令模式下保存当前文件所做的修改后退出vi；
 
 ### 读取文件并输出到 Terminal 窗口
 
-```
+``` bash
 cat foo.txt                        #显示文件全部内容
 cat > filename                     #创建文件并进入编辑模式
 cat foo.txt bar.txt > foobar.txt   #合并文件内容
@@ -345,7 +345,7 @@ cat foo.txt bar.txt > foobar.txt   #合并文件内容
 
 ### 查看命令的详细帮助
 
-```
+``` bash
 man 命令名
 ```
 命令   | 说明
@@ -359,28 +359,28 @@ q      |退出
 
 ### 定位某个命令的文件路径
 
-```
+``` bash
 which 命令
 ```
 这个命令会定位某个命令的文件路径。换言之，它会告诉你你执行某个具体命令的时候，在使用哪个文件。
 
 ### 根据文件的内容输出文件类型
 
-```
+``` bash
 file 文件路径
 ```
 如果一个文件缺失了扩展名，那么这个命令可能会非常有用。
 
 
 ### 利用 URL 语法在命令行下工作的文件传输工具
-```
+``` bash
 curl www.baidu.com              #查看网站源码
 curl -o 文件名 www.sina.com      #下载
 ```
 
 ### 运行脚本命令
 
-```
+``` bash
 sh 脚本文件名
 ```
 例: 所有需要的操作存成一个脚本，以后只要运行一次这个脚本就可以了。
@@ -398,7 +398,7 @@ kextcache -k /System/Library/Extensions/
 
 ### 常用解压和压缩命令
 
-```
+``` bash
 # .tar（注：tar是打包，不是压缩）
 tar xvf FileName.tar             #解压
 tar cvf FileName.tar DirName     #打包
@@ -413,14 +413,14 @@ zip FileName.zip DirName         #打包
 ### say  
 say 是一个文本转语音（TTS）的有趣工具，引擎和OS X使用的一样也是VoiceOver。可以用于在脚本中播放警告或提示。例如你可以设置Automator或Hazel脚本处理文件，并在任务完成时用  say 命令语音提示。 
 
-```
+``` bash
 # 用 -f 选项朗读特定文本文件，-o 选项将朗读结果存为音频文件而不是播放
 say -f mynovel.txt -o myaudiobook.aiff 
 ```
 
 ### 显示当前日历，或者指定日期的日历
 
-```
+``` bash
 cal      #输出当前月日历
 cal 2018 #输出2018年日历
 ```

@@ -4,8 +4,9 @@ date: 2017/6/15
 tags: hexo
 categories: 其他
 ---
-## note 
-<div class="note info">博客使用了NEXT主题，特此贴上我的配置代码</div>
+<div class="note info">博客使用了NEXT主题，特此贴上我的配置代码。[More info](https://hexo.io/docs/)</div>
+
+## 命令行
 ``` bash
 hexo new "postName" #新建文章
 hexo new page "pageName" #新建页面
@@ -25,8 +26,9 @@ hexo d == hexo deploy
 hexo g -d == hexo generate hexo deploy
 ```
 
-### 样式
-``` bash
+## 样式
+themes/next/source/css/_custom/custom.styl 加入以下代码：
+``` css
 // Custom styles.
 //首页文章阴影样式
 .post {
@@ -214,34 +216,3 @@ a {
 }
 ```
 
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/deployment.html)
