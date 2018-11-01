@@ -9,6 +9,8 @@ categories: 性能优化
 **Fast is better than slow.**   – [Ten things we know to be true](https://www.jianshu.com/p/162454cf2241)
 {% endcq %}
 
+<!--more-->
+
 # 优化标准-RAIL模型
 ## TL;DR 
 - 以用户为中心；最终目标不是让您的网站在任何特定设备上都能运行很快，而是使用户满意。

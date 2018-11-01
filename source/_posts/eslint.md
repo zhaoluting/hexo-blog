@@ -20,6 +20,9 @@ categories: 规范
 ``` bash
 $ npm install --save-dev eslint@4.19.1 babel-eslint@8.2.4 eslint-loader@2.0.0 eslint-config-google@0.9.1 eslint-plugin-vue@4.5.0 eslint-plugin-import@2.13.0
 ```
+
+<!--more-->
+
 ### 在项目最外层新建并编辑.eslintrc.js文件
 **加入以下代码**：
 ```javascript

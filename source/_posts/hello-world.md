@@ -26,6 +26,8 @@ hexo d == hexo deploy
 hexo g -d == hexo generate hexo deploy
 ```
 
+<!--more-->
+
 ## 样式
 themes/next/source/css/_custom/custom.styl 加入以下代码：
 ``` css
@@ -201,18 +203,4 @@ a {
 .post-button a:hover {
     color: #7784ba;
 }
-// 自定义页脚跳动的心样式
-@keyframes heartAnimate {
-    0%,100%{transform:scale(1);}
-    10%,30%{transform:scale(0.9);}
-    20%,40%,60%,80%{transform:scale(1.1);}
-    50%,70%{transform:scale(1.1);}
-}
-#heart {
-    animation: heartAnimate 1.33s ease-in-out infinite;
-}
-.with-love {
-    color: #a88771;
-}
 ```
-
