@@ -51,13 +51,11 @@ themes/next/source/css/_custom/custom.styl 加入以下代码：
 }
 //首页头部样式
 .header {
-    background: url("../../images/background.jpg");
+    background: url("../../images/global/background.jpg");
+    background-color: #A48777;
 }
 .headband {
     background: #926f5a;
-}
-.site-meta {
-    float: none;
 }
 .brand {
     background: #d08e65cc;
@@ -65,6 +63,7 @@ themes/next/source/css/_custom/custom.styl 加入以下代码：
 .menu {
     float: none;
     background: #ffffff59;
+    padding: 2px 0;
 }
 .logo-line-before,
 .logo-line-after {
@@ -78,13 +77,14 @@ themes/next/source/css/_custom/custom.styl 加入以下代码：
 .site-meta {
     margin-left: 0px;
     text-align: center;
-}
-.site-meta .site-title {
-    font-size: 35px;
-    font-family: 'Comic Sans MS', sans-serif;
-    color: #fff;
-    height: 50px;
-    padding-top: 5px;
+    float: none;
+    .site-title {
+        font-size: 35px;
+        font-family: 'Comic Sans MS', sans-serif;
+        color: #fff;
+        height: 50px;
+        padding-top: 5px;
+    }
 }
 //首页尾部样式
 .footer {
@@ -96,111 +96,161 @@ themes/next/source/css/_custom/custom.styl 加入以下代码：
     text-align: center;
     color: #a88772;
 }
-//侧边栏信息样式修改
-.site-author-name {
-    margin: 30px 0 0;
-    color: #fff;
-    font-family: 'Comic Sans MS', sans-serif;
-    font-size: 20px;
-}
-// 侧栏头像（圆形以及旋转效果）
-.site-author-image {
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 100%;
-    background-color: #fff;
-    transition: transform 1.0s ease-out;
-}
+
+
 img:hover {
     transform: rotateZ(360deg);
-}
-.site-description {
-    color: #e4c8bf;
-}
-.posts-expand .post-body img:hover {
-    transform: initial;
-}
-.links-of-blogroll {
-    font-size: 14px;
-    margin-bottom: 42px;
-}
-.links-of-author {
-    margin-top: 30px;
-    margin-bottom: 58px;
-}
-.sidebar-inner {
-    color: #649ab6;
 }
 .sidebar {
     background: #a88773;
     box-shadow: inset 0 2px 6px #724d38;
+    .sidebar-inner {
+        color: #e6c5b2;
+        // 侧栏头像
+        .site-author-image {
+            border: 2px solid #fff;
+            border-radius: 100%;
+            background-color: #fff;
+            transition: transform 1.0s ease-out;
+            margin-top: 20px;
+        }
+        //侧边栏信息样式修改
+        .site-author-name {
+            margin: 30px 0 0;
+            color: #fff;
+            font-family: 'Comic Sans MS', sans-serif;
+            font-size: 20px;
+        }
+        .site-description {
+            color: #e6c5b2;
+        }
+        a {
+            color: #fff;
+            border-bottom-color: #e6c5b2;
+            border-bottom: none;
+        }
+        a:hover {
+            color: #fff;
+        }
+        .sidebar-nav {
+            .sidebar-nav-active {
+                color: #fff;
+                border-bottom-color: #fff;
+            }
+            li {
+                color: #e1c6b5;
+            }
+            li:hover {
+                color: #fff;
+            }
+            .sidebar-nav-active:hover {
+                color: #fff;
+            }
+        }
+        .site-state {
+            .site-state-item {
+                display: inline-block;
+                padding: 8px 28px;
+                border-left: 1px solid #e6c5b2;
+            }
+        }
+        .links-of-blogroll {
+            font-size: 14px;
+            margin-bottom: 42px;
+            .links-of-blogroll-title {
+                font-family: 'Comic Sans MS', sans-serif;
+                font-size: 16px;
+                color: #fff;
+            }
+            .links-of-blogroll-list {
+                border-top: 1px dotted;
+                margin: 10px 20px;
+                line-height: 20px;
+                padding-top: 10px;
+            }
+        }
+        .links-of-author {
+            margin-bottom: 70px;
+            .links-of-author-item i {
+                margin-right: 3px;
+            }
+        }
+        //文章目录样式
+        .post-toc {
+            .nav .active>a {
+                color: #fff;
+            }
+            ol a {
+                color: #e0c6b5;
+            }
+            ol a:hover {
+                color: #fff;
+            }
+        }
+    }
 }
-.sidebar a {
-    color: #fff;
-    border-bottom-color: #649ab6;
-    border-bottom: none;
-}
-.sidebar a:hover {
-    color: #fff;
-}
-.site-state-item {
-    display: inline-block;
-    padding: 8px 28px;
-    border-left: 1px solid #649ab6;
-}
-.sidebar-nav .sidebar-nav-active {
-    color: #fff;
-    border-bottom-color: #fff;
-}
-.sidebar-nav li {
-    color: #e1c6b5;
-}
-.sidebar-nav li:hover {
-    color: #fff;
-}
+
 //侧栏按钮样式
 .sidebar-toggle {
     background: #a88772;
+    .sidebar-toggle-line {
+        background: #ffffff;
+    }
 }
-.page-post-detail .sidebar-toggle-line {
-    background: #ffffff;
+.site-nav-toggle {
+    .btn-bar {
+        background: #a88772;
+    }
 }
 .back-to-top {
     background: #a88772;
 }
-//文章目录样式
-.post-toc .nav .active>a {
-    color: #fff;
+
+//首页文章块样式
+.post-type-normal {
+    //首页阅读全文样式
+    .post-button {
+        margin-top: 50px;
+        text-align: center;
+        .btn {
+            color: #fff;
+            font-size: 15px;
+            background: #ae866f;
+            border-radius: 16px;
+            line-height: 2;
+            margin: 0 4px 8px 4px;
+            padding: 0 20px;
+            border: 2px solid #926f5a;
+        }
+        a{
+            border-bottom: 1px solid #926f5a;
+        }
+        a:hover {
+            color: #fff1ea;
+        }
+    }
+    .post-footer {
+        .post-eof {
+            margin: 20px auto 10px;
+        }
+    }
 }
-.post-toc ol a {
-    color: #e0c6b5;
+
+
+// 代码块复制按钮样式
+.highlight-wrap .copy-btn {
+    color: #8D908C;
+    font-size: 12px;
 }
-.post-toc ol a:hover {
-    color: #fff;
-}
-.sidebar-nav .sidebar-nav-active:hover {
-    color: #fff;
-}
-a {
-    border-bottom: none;
-}
-//首页阅读全文样式
-.post-button {
-    margin-top: 30px;
-    text-align: center;
-}
-.post-button .btn {
-    color: #fff;
-    font-size: 15px;
-    background: #686868;
-    border-radius: 16px;
-    line-height: 2;
-    margin: 0 4px 8px 4px;
-    padding: 0 20px;
-}
-.post-button a{
-  border-bottom: 1px solid #666;
-}
-.post-button a:hover {
-    color: #7784ba;
+
+.posts-expand {
+    .post-body {
+        img:hover {
+            transform: initial;
+        }
+        a {
+            border-bottom: 1px dashed #999;
+        }
+    }
 }
 ```
