@@ -1,10 +1,6 @@
----
-title: Hello World
-date: 2017/6/15
-tags: hexo
-categories: 其他
----
-<div class="note info">博客使用了NEXT主题，特此贴上我的配置代码。[More info](https://hexo.io/docs/)</div>
+# hexo博客构建系统
+运行此项目将会自动构建个人博客，并将打包出来的静态资源部署到zhaoluting.github.io仓库中。  
+本项目使用[NexT](http://theme-next.iissnan.com/)主题
 
 ## 命令行
 ``` bash
@@ -25,8 +21,6 @@ hexo s == hexo server
 hexo d == hexo deploy
 hexo g -d == hexo generate hexo deploy
 ```
-
-<!--more-->
 ## 需要修改的文件
 ### themes/next/source/css/_common/components/tags/label.styl
 注释掉 white-space: nowrap;
@@ -38,7 +32,7 @@ hexo g -d == hexo generate hexo deploy
 - [favicon-32x32-next.png](https://zhaoluting.github.io/images/global/favicon-32x32-next.png)
 
 ### themes/next/_config.yml
-``` xml
+```
 <!-- 设置图标 -->
 favicon:
   small: /images/global/favicon-16x16-next.png
@@ -131,7 +125,7 @@ pace_theme: pace-theme-flash
 pace: true
 ```
 ### themes/next/source/css/_custom/custom.styl
-``` css
+```
 // Custom styles.
 //首页文章阴影样式
 .post {
