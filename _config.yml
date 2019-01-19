@@ -80,3 +80,12 @@ deploy:
   type: git
   repository: https://github.com/zhaoluting/zhaoluting.github.io.git
   branch: master
+
+# 字数统计和阅读时长(网站底部/文章内)
+symbols_count_time:
+ #文章内是否显示
+  symbols: true
+  time: true
+ # 网页底部是否显示
+  total_symbols: true
+  total_time: true

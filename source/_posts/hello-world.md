@@ -99,6 +99,22 @@ avatar:
 sidebar:
   scrollpercent: true
 
+
+<!-- 文章信息显示设置 -->
+post_meta:
+  updated_at:
+    <!-- 不显示修改日期 -->
+    enabled: false
+
+<!-- 文章字数统计显示 https://github.com/theme-next/hexo-symbols-count-time -->
+symbols_count_time:
+  <!-- 是否单独成一行  -->
+  separated_meta: false
+  <!-- 文章中的显示是否显示文字（本文字数|阅读时长）  -->
+  item_text_post: false
+  <!-- 网页底部的显示是否显示文字（站点总字数|站点阅读时长）  -->
+  item_text_total: false
+
 <!-- 代码块具备复制功能 -->
 codeblock:
   copy_button:

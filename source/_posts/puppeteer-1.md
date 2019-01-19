@@ -2,6 +2,7 @@
 title: puppeteer实战-微信文章爬取调研
 date: 2018-10-20 16:18:00
 tags: puppeteer
+categories: 前端
 ---
 ## puppeteer
 Puppeteer是一个Nodejs的库，支持调用Chrome的API来操纵Web，可以很方便的用它来抓取文章。微信公众号文章又是大家阅读量非常大的一个平台，但是想要完美得抓取出公众号文章是相当难的。
