@@ -1,7 +1,7 @@
 ---
 title: 常规eslint配置
 date: 2018-07-22 16:24:36
-tags: eslint
+tags: tool
 categories: 规范
 ---
 ## eslint配置过程

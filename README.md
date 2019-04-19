@@ -32,7 +32,7 @@ hexo g -d == hexo generate hexo deploy
 - [favicon-32x32-next.png](https://zhaoluting.github.io/images/global/favicon-32x32-next.png)
 
 ### themes/next/_config.yml
-```
+```yml
 <!-- 设置图标 -->
 favicon:
   small: /images/global/favicon-16x16-next.png
@@ -125,7 +125,7 @@ pace_theme: pace-theme-flash
 pace: true
 ```
 ### themes/next/source/css/_custom/custom.styl
-```
+```styl
 // Custom styles.
 //首页文章阴影样式
 .post {
