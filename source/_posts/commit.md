@@ -15,7 +15,7 @@ categories: 规范
 - [commitlint](https://github.com/conventional-changelog/commitlint)：检查 commit 信息是否符合规范。
 - [gitmoji](https://github.com/carloscuesta/gitmoji)：私人项目可以用用这个比较俏皮有趣的插件。
 
-
+<!--more-->
 
 **commit格式规范：**
 
