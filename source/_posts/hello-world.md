@@ -37,6 +37,13 @@ hexo g -d == hexo generate hexo deploy
 - [favicon-16x16-next.png](https://zhaoluting.github.io/images/global/favicon-16x16-next.png)
 - [favicon-32x32-next.png](https://zhaoluting.github.io/images/global/favicon-32x32-next.png)
 
+### themes/next/source/lib
+```bash
+cd themes/next
+git clone https://github.com/theme-next/theme-next-fancybox3 source/lib/fancybox
+git clone https://github.com/theme-next/theme-next-pace source/lib/pace
+```
+
 ### themes/next/_config.yml
 ``` xml
 <!-- 设置图标 -->
