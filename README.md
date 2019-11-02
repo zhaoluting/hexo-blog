@@ -81,15 +81,14 @@ links_icon: code
 links_title: 技术栈
 links_layout: inline
 links:
-  vue: https://cn.vuejs.org/
-  react: https://react.docschina.org/
+  React: https://react.docschina.org/
+  TypeScript: https://www.typescriptlang.org/
+  Vue: https://cn.vuejs.org/
   mpvue: http://mpvue.com/
-  node: https://nodejs.org/en/
-  webpack: https://webpack.js.org/
-  koa: https://koa.bootcss.com/
-  pupprteer: https://pptr.dev/
+  Node: https://nodejs.org/en/
+  Pupprteer: https://pptr.dev/
+  Webpack: https://webpack.js.org/
   MySQL: https://www.mysql.com/
-  zsh: https://zhaoluting.github.io/2018/01/25/Mac-terminal/
 
 <!-- 设置右侧展开头像 -->
 avatar:
