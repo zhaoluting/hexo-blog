@@ -1,8 +1,8 @@
 ---
 title: chrome调试指南
 date: 2017-10-12
-tags: chrome
-categories: 前端
+tags: tool
+categories: 工具
 ---
 
 # 简介

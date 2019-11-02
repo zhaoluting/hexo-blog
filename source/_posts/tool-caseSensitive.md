@@ -2,7 +2,7 @@
 title: 关于大小写不敏感的坑
 date: 2019-04-19 17:30:45
 tags: tool
-categories: 规范
+categories: 工具
 ---
 
 ## 问题

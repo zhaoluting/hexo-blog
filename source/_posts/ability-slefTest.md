@@ -1,7 +1,7 @@
 ---
 title: 如何提高前端的自测能力
 date: 2018-06-27 16:53:46
-tags: test
+tags: ability
 categories: 能力
 ---
 <div class="note info">一个小菜鸟的感悟与总结</div>

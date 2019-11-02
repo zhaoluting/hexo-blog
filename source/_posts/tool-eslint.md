@@ -2,7 +2,7 @@
 title: 常规eslint配置
 date: 2018-07-22 16:24:36
 tags: tool
-categories: 规范
+categories: 工具
 ---
 ## eslint配置过程
 ### 安装需要依赖的npm包

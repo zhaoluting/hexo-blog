@@ -1,8 +1,8 @@
 ---
 title: Hello World
 date: 2017/6/15
-tags: hexo
-categories: 其他
+tags: tool
+categories: 工具
 ---
 <div class="note info">博客使用了NEXT主题，特此贴上我的配置代码。[More info](https://hexo.io/docs/)</div>
 

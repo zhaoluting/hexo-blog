@@ -1,7 +1,7 @@
 ---
 title: puppeteer实战-微信文章爬取调研
 date: 2018-10-20 16:18:00
-tags: puppeteer
+tags: node
 categories: 前端
 ---
 ## puppeteer

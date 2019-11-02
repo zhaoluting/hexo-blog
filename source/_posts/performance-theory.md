@@ -2,7 +2,7 @@
 title: 性能优化专题-理论篇
 date: 2018-07-22 22:19:41
 tags: performance
-categories: 性能优化
+categories: 前端
 ---
 
 {% cq %}
@@ -181,7 +181,7 @@ FPS（frames per second）是用来分析动画的一个主要性能指标。能
 5. 就在FPS图表下方，你会看到CPU图表。
     - 在CPU图表中的各种颜色与Summary面板里的颜色是相互对应的，Summary面板就在Performance面板的下方。
     - CPU图表中的各种颜色代表着在这个时间段内，CPU在各种处理上所花费的时间。
-    - 如果你看到了某个处理占用了大量的时间，那么这可能就是一个可以找到性能瓶颈的线索。详细看[Chrome调试指南](https://zhaoluting.github.io/2017/10/12/devTool/)。
+    - 如果你看到了某个处理占用了大量的时间，那么这可能就是一个可以找到性能瓶颈的线索。详细看[Chrome调试指南](https://zhaoluting.github.io/2017/10/12/tool-devTool/)。
 ![CPU](/image/performance-theory/tool-cpu.png)
 6. 展开Main图表，Devtools展示了主线程运行状况。
     - X轴代表着时间。每个长条代表着一个event,长条越长就代表这个event花费的时间越长。

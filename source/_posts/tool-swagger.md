@@ -1,8 +1,8 @@
 ---
 title: swagger文档规范
 date: 2017-11-01 16:53:46
-tags: communication
-categories: 沟通
+tags: tool
+categories: 工具
 ---
 
 ## 简介

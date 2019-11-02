@@ -2,7 +2,7 @@
 title: logLevel
 date: 2019-04-19 17:22:44
 tags: tool
-categories: 规范
+categories: 工具
 ---
 
 ## 简介
