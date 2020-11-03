@@ -1,5 +1,5 @@
 ---
-title: summary-standard
+title: 规范汇总
 date: 2020-03-17 10:50:21
 tags: summary
 categories: 技术小合集
