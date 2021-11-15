@@ -12,8 +12,8 @@ comments: false
 - 前端架构设计
 - Effective JavaScript
 - 学习JavaScript数据结构与算法
-- [现代前端技术解析](https://zhaoluting.github.io/2019/01/19/FE-technology/)
-- [JavaScript设计模式与开发实践](https://zhaoluting.github.io/2019/01/11/design-patterns/)
+- [现代前端技术解析](https://zhaoluting.github.io/FE-technology/)
+- [JavaScript设计模式与开发实践](https://zhaoluting.github.io/design-patterns/)
 - 图解HTTP
 - 图解TCP/IP
 - 深入浅出NodeJs
