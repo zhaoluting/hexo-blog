@@ -5,7 +5,7 @@ type: "about"
 comments: false
 ---
 
-<img src="../image/work/IMG_3149.jpg" width="200" height="200">
+<img src="../image/work/resume_2021.jpg" width="200" height="200">
 ## 基本信息
 - **赵璐婷 / 女 / 1996**
 - 手机：17816876261
@@ -18,11 +18,9 @@ comments: false
 ### 工作经验
 - 2017-06-15 ~ 2018-10-26：杭州振牛网络科技有限公司（51信用卡）
 - 2019-02-13 ~ 2019-10-16：杭州魔蝎数据科技有限公司
+- 2019-12-25 ~ 2021-07-08：杭州多技教育科技有限公司（蓝铅笔）
 
-### 技能
-- 前端框架：React / Vue / Node / TypeScript / mpvue / Pupprteer
-- 前端工具：NPM / Webpack / Sass / Less
-- 数据库相关：MySQL / SQLServer
+> 备注：555我哭了，你们听我解释，我是想要稳定工作的。从51离职是因为当时金融行业整顿，所以我刚毕业就被裁了；从魔蝎离职是因为小贷行业被整顿，公司被抄了；从蓝铅笔离职是因为教育行业被整顿，又被裁了。
 
 ### 优点
 - 业务能力强，加入过反欺诈、工程平台、区块链、运营、创新等相关项目组。
@@ -33,6 +31,18 @@ comments: false
 <br/>
 
 ## 项目经验
+#### 鳄鱼学园简笔画 - 蓝铅笔
+
+> 鳄鱼学园简笔画是提供免费优质简笔画内容学习的平台，支持图文、视频两种学习方式，目标用户是幼儿园、小学低年级的儿童及他们的父母。
+
+2020年3月品牌升级，我开发了全新版本的移动端和PC端主站，新版对比旧版，大大优化了SEO，同时编写了很多通用的公共组件，代码严格按照规范编写，注释也都尽可能的补全，日后的维护工作高效了很多。
+
+- H5版（Laravel/Vue）：独立开发移动端主站的所有页面，以及小程序内嵌的H5页面
+- PC版（Laravel/JQuery/vue）：独立开发PC端主站、维护后台系统的所有页面
+- 小程序版（WXML/WXS）：独立维护小程序的所有模块，并配合完成了品牌升级
+
+---
+
 #### 设备指纹SDK JS - 魔蝎
 
 > 设备指纹sdk能收集硬软件多维信息，生成能有效对抗黑产的唯一设备ID，实现终端设备上的各类风险检测、行为分析，有效对抗网络爬虫、虚假交易等恶意行为。
@@ -80,14 +90,22 @@ comments: false
 
 --- 
 
-### 其他项目组
+### 项目汇总
 - [案件管理系统](https://zhaoluting.github.io/goodbye51/#案件管理系统) - 51内部管理欺诈案件的后台系统
+- [数据研发平台](https://zhaoluting.github.io/goodbye51/#数据研发平台) - 51内部集中式的任务调度系统
 - [NX-SERVICE](https://zhaoluting.github.io/goodbye51/#NX-SERVICE) - 51内部统一数据接口服务的平台
 - [金融渠道管理后台](https://zhaoluting.github.io/goodbye51/#金融渠道管理后台) - 51内部管理渠道、协助分析的后台系统
 - [顶天系统](https://zhaoluting.github.io/goodbye51/#顶天系统) - 51内部集成渠道素材管理、投放管理、应用包管理等模块的运营后台系统
+- [享读reRead](https://zhaoluting.github.io/goodbye51/#享读reRead) - 公司对外创新项目，稍后阅读工具，支持多平台文章收藏与存储。
 - [魔蝎官网](https://zhaoluting.github.io/goodbyeMoxie/#魔蝎官网) - 魔蝎对外展示公司产品、特色及动态的官网
 - [开放平台](https://zhaoluting.github.io/goodbyeMoxie/#开放平台) - 魔蝎对外供商户开发者使用的自主管理业务的平台
 - [魔蝎SDK-H5](https://zhaoluting.github.io/goodbyeMoxie/#魔蝎SDK-H5)- 魔蝎用于采集用户信息的入口页面
 - [魔链授权](https://zhaoluting.github.io/goodbyeMoxie/#魔链授权) - 魔蝎用于引导用户将采集结果上链的相关页面
+- [区块链可信建模平台](https://zhaoluting.github.io/goodbyeMoxie/#区块链可信建模平台) - 魔蝎大数据风险指标与客户数据联合建模，并进行全生命周期管理的一站式平台
+- [设备指纹SDK-JS](https://zhaoluting.github.io/goodbyeMoxie/#设备指纹SDK-JS) - 魔蝎收集并上报web端信息以提高SDK针对各类风险设备及环境识别率的工具
 - [AI引导页](https://zhaoluting.github.io/goodbyeMoxie/#AI引导页) - 魔蝎AI辅助认证APP内置的H5引导页
+- [鳄鱼学园](https://zhaoluting.github.io/goodbyeLanqb/#鳄鱼学园) - 蓝铅笔旗下的线上美术教育平台
+- [鳄鱼学园简笔画](https://zhaoluting.github.io/goodbyeLanqb/#鳄鱼学园简笔画) - 蓝铅笔旗下提供免费优质简笔画内容学习的平台
+- [任务星球](https://zhaoluting.github.io/goodbyeLanqb/#任务星球) - 蓝铅笔旗下以经纪服务为核心的一站式设计师接单平台
+- [知产星球CRM](https://zhaoluting.github.io/goodbyeLanqb/#知产星球CRM) - 蓝铅笔旗下提供版权确权、版权监测、维权服务方案的一站式知识产权服务平台
 

@@ -1,14 +1,6 @@
 ---
-title: 404
+title: 404 Not Found
 permalink: /404
 ---
-<!DOCTYPE html>
-<html>
-    <head>
-         <meta charset="UTF-8" />
-         <title>404<title>                                               
-    </head>
-    <body>
-         <script type="text/javascript" homePageUrl="https://zhaoluting.github.io/archives/"></script>
-	</body>
-</html>
+
+opps~找不到这篇文章了，点[这里](https://zhaoluting.github.io/archives/)找找吧~

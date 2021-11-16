@@ -176,6 +176,8 @@ pace: true
 .header {
     background: url("../../images/global/background.jpg");
     background-color: #A48777;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 .headband {
     background: #926f5a;
