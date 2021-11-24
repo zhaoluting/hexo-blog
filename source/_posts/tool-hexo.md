@@ -178,6 +178,10 @@ pace: true
     background-color: #A48777;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    background-position: center;
+    @media only screen and (max-width: 767px) {
+        background-size: auto 100%;
+    }
 }
 .headband {
     background: #926f5a;
