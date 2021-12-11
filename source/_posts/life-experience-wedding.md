@@ -5,7 +5,7 @@ tags: life
 categories: 生活
 ---
 
-婚礼和装修真的是两大最坑的行业，结婚愁的我头都要秃了，最近几年结婚的小姐妹也多，趁我还记得，赶紧记下来。我们的各种成片都记录在公众号（微信号：zlt_lws）上面，可以去看看当做参考哦，有[婚纱照](https://mp.weixin.qq.com/s/Y7Oxhos_RUHZu60zBbNBKw)、[米光成片](https://mp.weixin.qq.com/s/4UsulHtCyq-qOGW8SKL3fQ)等等
+婚礼和装修真的是两大最坑的行业，结婚愁的我头都要秃了，最近几年结婚的小姐妹也多，趁我还记得，赶紧记下来。我们的各种成片都记录在公众号（微信号：zlt_lws）上面，可以去看看当做参考哦，有[婚纱照](https://mp.weixin.qq.com/s/Y7Oxhos_RUHZu60zBbNBKw)、[白色视觉成片](https://mp.weixin.qq.com/s/2BtmbLpvbqg0lM8L7F7veg)、[米光成片](https://mp.weixin.qq.com/s/4UsulHtCyq-qOGW8SKL3fQ)等等
 
 <!-- more -->
 
