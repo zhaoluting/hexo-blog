@@ -110,5 +110,5 @@ comments: false
 - [鳄鱼学园简笔画](https://zhaoluting.github.io/goodbyeLanqb/#鳄鱼学园简笔画) - 多技旗下提供免费优质简笔画内容学习的平台
 - [任务星球](https://zhaoluting.github.io/goodbyeLanqb/#任务星球) - 多技旗下以经纪服务为核心的一站式设计师接单平台
 - [知产星球CRM](https://zhaoluting.github.io/goodbyeLanqb/#知产星球CRM) - 多技旗下提供版权确权、版权监测、维权服务方案的一站式知识产权服务平台
-- [蓝铅笔](https://zhaoluting.github.io/goodbyeLanqb/#蓝铅笔) - 多技旗下绘画、设计的在线学习平台。
+- [蓝铅笔](https://zhaoluting.github.io/goodbyeLanqb/#蓝铅笔) - 多技旗下专注绘画、设计的在线学习平台
 
