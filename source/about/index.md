@@ -73,8 +73,8 @@ comments: false
 享读是公司对外创新项目，前端由我独立负责，包括H5、小程序、后台系统、Chrome插件及一部分爬虫工作。在超额完成的同时，对文章的抓取排版以及分享链路进行了优化，吸引、留住了更多用户。
 
 - 相关H5（vue/webpack）：包括官网、相关分享页、部分壳内页面。
-- 微信小程序（vue/webpack）：具备享读基本的分享、阅读、圈子等功能。
-- 后台系统（mpvue/webpack）：维护两个享读后台系统--运营后台、文章解析后台。
+- 微信小程序（mpvue/webpack）：具备享读基本的分享、阅读、圈子等功能。
+- 后台系统（vue/webpack）：维护两个享读后台系统--运营后台、文章解析后台。
 - 爬虫工作（node/puppetter）：承担部分爬虫工作，同时辅助优化较复杂的爬取脚本。
 - Chrome插件（vue/webpack）：开发在Chrome上可同步、收藏文章的享读插件。
 
@@ -106,8 +106,9 @@ comments: false
 - [区块链可信建模平台](https://zhaoluting.github.io/goodbyeMoxie/#区块链可信建模平台) - 魔蝎大数据风险指标与客户数据联合建模，并进行全生命周期管理的一站式平台
 - [设备指纹SDK-JS](https://zhaoluting.github.io/goodbyeMoxie/#设备指纹SDK-JS) - 魔蝎收集并上报web端信息以提高SDK针对各类风险设备及环境识别率的工具
 - [AI引导页](https://zhaoluting.github.io/goodbyeMoxie/#AI引导页) - 魔蝎AI辅助认证APP内置的H5引导页
-- [鳄鱼学园](https://zhaoluting.github.io/goodbyeLanqb/#鳄鱼学园) - 蓝铅笔旗下的线上美术教育平台
-- [鳄鱼学园简笔画](https://zhaoluting.github.io/goodbyeLanqb/#鳄鱼学园简笔画) - 蓝铅笔旗下提供免费优质简笔画内容学习的平台
-- [任务星球](https://zhaoluting.github.io/goodbyeLanqb/#任务星球) - 蓝铅笔旗下以经纪服务为核心的一站式设计师接单平台
-- [知产星球CRM](https://zhaoluting.github.io/goodbyeLanqb/#知产星球CRM) - 蓝铅笔旗下提供版权确权、版权监测、维权服务方案的一站式知识产权服务平台
+- [鳄鱼学园](https://zhaoluting.github.io/goodbyeLanqb/#鳄鱼学园) - 多技旗下的线上少儿美术教育平台
+- [鳄鱼学园简笔画](https://zhaoluting.github.io/goodbyeLanqb/#鳄鱼学园简笔画) - 多技旗下提供免费优质简笔画内容学习的平台
+- [任务星球](https://zhaoluting.github.io/goodbyeLanqb/#任务星球) - 多技旗下以经纪服务为核心的一站式设计师接单平台
+- [知产星球CRM](https://zhaoluting.github.io/goodbyeLanqb/#知产星球CRM) - 多技旗下提供版权确权、版权监测、维权服务方案的一站式知识产权服务平台
+- [蓝铅笔](https://zhaoluting.github.io/goodbyeLanqb/#蓝铅笔) - 多技旗下绘画、设计的在线学习平台。
 
