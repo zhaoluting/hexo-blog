@@ -1,5 +1,5 @@
 ---
-title: tool-sftp
+title: SFTP入门
 date: 2022-01-26 14:49:31
 tags: tool
 categories: 工具
