@@ -33,9 +33,9 @@ hexo g -d == hexo generate hexo deploy
 
 ### themes/next/source/images
 该目录下创建global目录，放入
-- [background.jpg](https://zhaoluting.github.io/images/global/background.jpg)
-- [favicon-16x16-next.png](https://zhaoluting.github.io/images/global/favicon-16x16-next.png)
-- [favicon-32x32-next.png](https://zhaoluting.github.io/images/global/favicon-32x32-next.png)
+- [background.jpg](/images/global/background.jpg)
+- [favicon-16x16-next.png](/images/global/favicon-16x16-next.png)
+- [favicon-32x32-next.png](/images/global/favicon-32x32-next.png)
 
 ### themes/next/source/lib
 ```bash

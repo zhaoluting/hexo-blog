@@ -5,7 +5,8 @@ type: "about"
 comments: false
 ---
 
-<img src="../image/work/resume_2021.jpg" width="200" height="200">
+<img src="../image/work/resume_2022.jpg" style="border-radius: 8px;" width="200" height="200">
+
 ## 基本信息
 - **赵璐婷 / 女 / 1996**
 - 手机：17816876261

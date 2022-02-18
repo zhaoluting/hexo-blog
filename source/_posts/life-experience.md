@@ -9,7 +9,7 @@ categories: 生活
 
 <!-- more -->
 
-- [公司篇](https://zhaoluting.github.io/life-experience-company/)
-- [安家篇](https://zhaoluting.github.io/life-experience-home/)
-- [车车篇](https://zhaoluting.github.io/life-experience-car/)
-- [婚礼篇](https://zhaoluting.github.io/life-experience-wedding/)
+- [公司篇](/life-experience-company/)
+- [安家篇](/life-experience-home/)
+- [车车篇](/life-experience-car/)
+- [婚礼篇](/life-experience-wedding/)

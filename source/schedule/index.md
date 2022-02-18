@@ -6,15 +6,15 @@ comments: false
 ---
 
 ## 推荐书单
-- [你不知道的JavaScript（上中下）](https://zhaoluting.github.io/book-dontKnowJS/)
+- [你不知道的JavaScript（上中下）](/book-dontKnowJS/)
 - JavaScript高级教程设计
 - JavaScript语言精粹
 - 前端架构设计
 - web性能实战
 - Effective JavaScript
 - 学习JavaScript数据结构与算法
-- [现代前端技术解析](https://zhaoluting.github.io/FE-technology/)
-- [JavaScript设计模式与开发实践](https://zhaoluting.github.io/design-patterns/)
+- [现代前端技术解析](/FE-technology/)
+- [JavaScript设计模式与开发实践](/design-patterns/)
 - 图解HTTP
 - 图解TCP/IP
 - 深入浅出NodeJs
