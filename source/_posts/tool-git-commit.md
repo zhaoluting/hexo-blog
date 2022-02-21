@@ -1,7 +1,9 @@
 ---
-title: commit辅助工具
+title: git commit辅助工具
 date: 2019-04-19 17:32:23
-tags: tool
+tags:
+  - tool
+  - git
 categories: 工具
 ---
 
