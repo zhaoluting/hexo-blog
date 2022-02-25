@@ -1,37 +1,56 @@
 // Custom styles.
+
+.use-motion .pace .pace-progress {
+    background: #926f5a;
+}
+.headband {
+    background: #926f5a;
+    height: 0;
+}
+.brand {
+    background: #d08e65cc;
+}
+
 //首页头部样式
 .header {
     background: url("../image/global/background.jpg");
     background-color: #A48777;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     background-position: center;
-}
-.headband {
-    background: #926f5a;
-}
-.brand {
-    background: #d08e65cc;
-}
-.site-nav {
-   // padding: 20px 0 70px;
-    .menu {
-        float: none;
-        background: #ffffff59;
-        padding: 2px 0;
+    padding-bottom: 40px;
+    .header-inner {
+        padding-top: 70px;
+        .site-meta {
+            margin: 20px auto;
+            .site-title {
+                font-size: 35px;
+                font-family: 'Comic Sans MS', sans-serif;
+                padding-bottom: 5px;
+            }
+        }
+        .site-nav {
+            .menu {
+                float: none;
+                background: #ffffff59;
+                padding: 2px 0;
+            }
+        }
     }
 }
 
-.header-inner .site-meta .site-title {
-    font-size: 35px;
-    font-family: 'Comic Sans MS', sans-serif;
-    padding-bottom: 5px;
+@media (max-width: 767px) {
+    .header {
+        padding-bottom: 0px;
+        .header-inner {
+            padding-top: 20px;
+        }
+        .site-nav {
+            border: none;
+        }
+    }
 }
-//首页尾部样式
-.footer-inner {
-    font-family: 'Comic Sans MS', sans-serif;
-    color: #a88772;
-}
+
 
 .sidebar {
     background: #a88773;
@@ -102,52 +121,86 @@
 .sidebar-toggle:hover .toggle-line{
     background: #ffffff;
 }
-
 .site-nav-toggle .btn-bar,.back-to-top, .sidebar-toggle {
     background: #a88772;
 }
-.post-block {
-    //首页文章阴影样式
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding: 25px;
-    -webkit-box-shadow: 0 0 14px rgba(202, 203, 203, .5);
-    -moz-box-shadow: 0 0 14px rgba(202, 203, 204, .5);
-    //首页阅读全文样式
-    .post-button {
-        margin-top: 50px;
-        text-align: center;
-        .btn {
-            color: #fff;
-            font-size: 15px;
+.back-to-top:hover {
+    color: #fff;
+}
+
+//首页尾部样式
+.footer-inner {
+    font-family: 'Comic Sans MS', sans-serif;
+    color: #a88772;
+}
+// 首页文章
+.posts-expand {
+    .pagination {
+        .prev:hover, .next:hover, .page-number:hover {
+            border-top-color: #ae866f
+        }
+        .page-number.current {
             background: #ae866f;
-            border-radius: 16px;
-            line-height: 2;
-            margin: 0 4px 8px 4px;
-            padding: 0 20px;
-            border: 2px solid #926f5a;
+            border-color: #ae866f;
         }
-        a{
-            border-bottom: 1px solid #926f5a;
-        }
-        a:hover {
-            color: #fff1ea;
+        a {
+           // color: #ae866f;
         }
     }
-    .post-footer {
-        .post-eof {
+    .post-block:first-of-type {
+        padding: 25px;
+    }
+    .post-block {
+        //阴影样式
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 25px;
+        -webkit-box-shadow: 0 0 14px rgba(202, 203, 203, .5);
+        -moz-box-shadow: 0 0 14px rgba(202, 203, 204, .5);
+        //首页阅读全文样式
+        .post-button {
+            margin-top: 50px;
+            text-align: center;
+            .btn {
+                color: #fff;
+                font-size: 15px;
+                background: #ae866f;
+                border-radius: 16px;
+                line-height: 2;
+                margin: 0 4px 8px 4px;
+                padding: 0 20px;
+                border: 2px solid #926f5a;
+            }
+            a{
+                border-bottom: 1px solid #926f5a;
+            }
+            a:hover {
+                color: #fff1ea;
+            }
+        }
+        .post-footer .post-eof {
             margin: 20px auto 10px;
         }
+        .post-header {
+            font-size: inherit;
+            margin-bottom: 30px;
+            .post-title {
+                margin: 20px 0 15px;
+            }
+        }
+        // 代码块复制按钮样式
+        .highlight .copy-btn {
+            color: #8D908C;
+            font-size: 12px;
+        }
+        .post-body {
+            font-size: 0.9rem;
+            a {
+                border-bottom: 1px dashed #999;
+            }
+            .headerlink {
+                border:none;
+            }
+        }
     }
-}
-
-
-// 代码块复制按钮样式
-.highlight .copy-btn {
-    color: #8D908C;
-    font-size: 12px;
-}
-
-.posts-expand .post-body a {
-    border-bottom: 1px dashed #999;
 }
