@@ -4,7 +4,7 @@ date: 2017/6/15
 tags: tool
 categories: 工具
 ---
-<div class="note info">博客使用了NEXT主题，特此贴上我的配置代码。[More info](https://hexo.io/docs/)</div>
+<div class="note info">博客使用了NEXT主题，特此贴上我的配置代码。<a href="https://hexo.io/docs/">More info</a></div>
 
 ## 命令行
 ``` bash
