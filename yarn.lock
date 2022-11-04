@@ -192,6 +192,11 @@ camel-case@^4.0.0:
     pascal-case "^3.1.2"
     tslib "^2.0.3"
 
+cargo-cp-artifact@^0.1:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/cargo-cp-artifact/-/cargo-cp-artifact-0.1.6.tgz#df1bc9dad036ae0f4230639a869182e1d5850f89"
+  integrity sha512-CQw0doK/aaF7j041666XzuilHxqMxaKkn+I5vmBsd8SAwS0cO5CqVEVp0xJwOKstyqWZ6WK4Ww3O6p26x/Goyg==
+
 chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz"
@@ -449,13 +454,6 @@ domexception@^4.0.0:
   dependencies:
     webidl-conversions "^7.0.0"
 
-domhandler@^3.0.0:
-  version "3.3.0"
-  resolved "https://registry.npmjs.org/domhandler/-/domhandler-3.3.0.tgz"
-  integrity sha512-J1C5rIANUbuYK+FuFL98650rihynUOEzRLxW+90bKZRWB6A1X1Tf82GxR1qAWLyfNPRvjqfip3Q5tdYlmAa9lA==
-  dependencies:
-    domelementtype "^2.0.1"
-
 domhandler@^4.2.0, domhandler@^4.2.2:
   version "4.3.0"
   resolved "https://registry.npmjs.org/domhandler/-/domhandler-4.3.0.tgz"
@@ -468,7 +466,7 @@ dompurify@^2.3.0:
   resolved "https://registry.npmjs.org/dompurify/-/dompurify-2.3.6.tgz"
   integrity sha512-OFP2u/3T1R5CEgWCEONuJ1a5+MFKnOYpkywpUSxv/dj1LeBT1erK+JwM7zK0ROy2BRhqVCf0LRw/kHqKuMkVGg==
 
-domutils@^2.0.0, domutils@^2.8.0:
+domutils@^2.8.0:
   version "2.8.0"
   resolved "https://registry.npmjs.org/domutils/-/domutils-2.8.0.tgz"
   integrity sha512-w96Cjofp72M5IIhpjgobBimYEfoPjx1Vx0BSX9P30WBdZW2WIKU0T1Bd0kz2eNZ9ikjKgHbEyKx8BB6H1L3h3A==
@@ -821,25 +819,10 @@ hexo-theme-next@^8.10.0:
   resolved "https://registry.npmjs.org/hexo-theme-next/-/hexo-theme-next-8.10.0.tgz"
   integrity sha512-b7Jlzm1dlx3ED+SEfMiy9l8EKHRj5/C9/ZA+ng1NvwWTVHMkC+Mj+k8za/Ys4kmcNZo8Xj1OkHgjYNx4X9dvNA==
 
-hexo-util@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/hexo-util/-/hexo-util-2.4.0.tgz"
-  integrity sha512-IPQvAyn0cznYMU2gskMiZ6LZEvN7wHNusrJoYxrir4f7S7POpZeDTBswiko9R1qqd+/hu07wUYZdm4ceTTCEaA==
-  dependencies:
-    bluebird "^3.5.2"
-    camel-case "^4.0.0"
-    cross-spawn "^7.0.0"
-    deepmerge "^4.2.2"
-    highlight.js "^10.0.0"
-    htmlparser2 "^4.0.0"
-    prismjs "^1.17.1"
-    strip-indent "^3.0.0"
-    striptags "^3.1.1"
-
-hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.4.0, hexo-util@^2.5.0:
-  version "2.6.0"
-  resolved "https://registry.npmjs.org/hexo-util/-/hexo-util-2.6.0.tgz"
-  integrity sha512-sLG45foxXMnMgCo3FpP4Sicj5nLD6ezO46+DKP01BWj1CfNq2pYoUdJacfeVbKc+oFtitRcNIGsPNNt3pVbzdg==
+hexo-util@2.7.0, hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.4.0, hexo-util@^2.5.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-2.7.0.tgz#13d09292e79d260db35399710b3e19f3995443a3"
+  integrity sha512-hQM3h34nhDg0bSe/Tg1lnpODvNkz7h2u0+lZGzlKL0Oufp+5KCAEUX9wal7/xC7ax3/cwEn8IuoU75kNpZLpJQ==
   dependencies:
     bluebird "^3.5.2"
     camel-case "^4.0.0"
@@ -850,12 +833,13 @@ hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.4.0, hexo-util@^2.5.0:
     prismjs "^1.17.1"
     strip-indent "^3.0.0"
 
-hexo-word-counter@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/hexo-word-counter/-/hexo-word-counter-0.0.3.tgz"
-  integrity sha512-VImhZ9m2RFoGDwKCkfNodogHgGmN7JLa1OZQ/N9gW0SpZDyOwP4jKAlWplzbAVdwK/CF3VQfKEeDzfsTbjcKTQ==
+hexo-word-counter@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/hexo-word-counter/-/hexo-word-counter-0.1.0.tgz#68e37bfaab9de97d9b0577a2fdcd2bfb2b2a0248"
+  integrity sha512-6HXSL2dlPuekSqWV7DevrUjGF0JgiHKGqkKSfay00JF9GmshJCLDK+AjvVrN0J1WgCbavsUGSwukyZgfW8VdSw==
   dependencies:
-    hexo-util "2.4.0"
+    cargo-cp-artifact "^0.1"
+    hexo-util "2.7.0"
 
 hexo@^6.0.0:
   version "6.0.0"
@@ -886,11 +870,6 @@ hexo@^6.0.0:
     titlecase "^1.1.2"
     warehouse "^4.0.0"
 
-highlight.js@^10.0.0:
-  version "10.7.3"
-  resolved "https://registry.npmjs.org/highlight.js/-/highlight.js-10.7.3.tgz"
-  integrity sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==
-
 highlight.js@^11.0.1:
   version "11.4.0"
   resolved "https://registry.npmjs.org/highlight.js/-/highlight.js-11.4.0.tgz"
@@ -902,16 +881,6 @@ html-encoding-sniffer@^3.0.0:
   integrity sha512-oWv4T4yJ52iKrufjnyZPkrN0CH3QnrUqdB6In1g5Fe1mia8GmF36gnfNySxoZtxD5+NmYw1EElVXiBk93UeskA==
   dependencies:
     whatwg-encoding "^2.0.0"
-
-htmlparser2@^4.0.0:
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/htmlparser2/-/htmlparser2-4.1.0.tgz"
-  integrity sha512-4zDq1a1zhE4gQso/c5LP1OtrhYTncXNSpvJYtWJBtXAETPlMfi3IFNjGuQbYLuVY4ZR0QMqRVvo4Pdy9KLyP8Q==
-  dependencies:
-    domelementtype "^2.0.1"
-    domhandler "^3.0.0"
-    domutils "^2.0.0"
-    entities "^2.0.0"
 
 htmlparser2@^7.0.0:
   version "7.2.0"
@@ -1549,11 +1518,6 @@ strip-indent@^3.0.0:
   integrity sha512-laJTa3Jb+VQpaC6DseHhF7dXVqHTfJPCRDaEbid/drOhgitgYku/letMUqOXFoWV0zIIUbjpdH2t+tYj4bQMRQ==
   dependencies:
     min-indent "^1.0.0"
-
-striptags@^3.1.1:
-  version "3.2.0"
-  resolved "https://registry.npmjs.org/striptags/-/striptags-3.2.0.tgz"
-  integrity sha512-g45ZOGzHDMe2bdYMdIvdAfCQkCTDMGBazSw1ypMowwGIee7ZQ5dU0rBJ8Jqgl+jAKIv4dbeE1jscZq9wid1Tkw==
 
 stylus@0.54.5:
   version "0.54.5"
