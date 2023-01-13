@@ -6,9 +6,10 @@ categories: 工具
 ---
 
 - 一般外网可访问且内容不敏感的话，可以直接使用微软的在线预览，体验也比较好；如果是本地、内网文件或者内容比较敏感的，还是比较建议使用插件来转换显示；
-- PDF可以直接新窗口打开，用浏览器自带的预览功能；如果需要自定义样式，则可以使用[vue-pdf](https://www.npmjs.com/package/vue-pdf)；
-- excel推荐使用[xlsx](https://www.npmjs.com/package/xlsx)，目前使用起来没什么大问题；
-- word使用最多的是[mammoth.js](https://www.npmjs.com/package/mammoth)，原理是将源文档转换为HTML，但是只支持.docx，样式也没法完全还原，注重还原度的话可以先转成PDF再预览；
+- 如果后端来预览是最好的，有类似[kkfileview](https://kkfileview.keking.cn/zh-cn/index.html)这种开源产品，前端只需要iframe嵌入即可；如果后端不提供支持，那只能前端自己来实现：
+  - PDF可以直接新窗口打开，用浏览器自带的预览功能；如果需要自定义样式，则可以使用[vue-pdf](https://www.npmjs.com/package/vue-pdf)；
+  - excel推荐使用[xlsx](https://www.npmjs.com/package/xlsx)，目前使用起来没什么大问题；
+  - word使用最多的是[mammoth.js](https://www.npmjs.com/package/mammoth)，原理是将源文档转换为HTML，但是只支持.docx，样式也没法完全还原，注重还原度的话可以先转成PDF再预览；
 
 <!--more-->
 
