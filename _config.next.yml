@@ -50,10 +50,10 @@ darkmode: true
 # ---------------------------------------------------------------
 
 favicon:
-  small: /image/global/favicon-16x16-next.png
-  medium: /image/global/favicon-32x32-next.png
-  apple_touch_icon: /image/global/favicon-32x32-next.png
-  safari_pinned_tab: /image/global/favicon-32x32-next.png
+  small: /image/global/favicon-next.png
+  medium: /image/global/favicon-next.png
+  apple_touch_icon: /image/global/favicon-next.png
+  safari_pinned_tab: /image/global/favicon-next.png
   #android_manifest: /manifest.json
 
 # Custom Logo (Warning: Do not support scheme Mist)
@@ -134,7 +134,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /image/global/favicon-32x32-next.png
+  url: /image/global/favicon-next.png
   # If true, the avatar will be displayed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
@@ -210,7 +210,7 @@ footer:
     # If you want to animate the icon, set it to true.
     animated: true
     # Change the color of icon, using Hex Code.
-    color: "#a88771"
+    color: "#6BA6E7"
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
   copyright:
@@ -349,8 +349,8 @@ mobile_layout_economy: false
 
 # Browser header panel color.
 theme_color:
-  light: "#a88773"
-  dark: "#222"
+  light: "#6BA6E7"
+  dark: "#6BA6E7"
 
 # Override browsers' default behavior.
 body_scrollbar:

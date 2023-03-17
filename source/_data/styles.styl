@@ -1,31 +1,31 @@
 // Custom styles.
 
 .use-motion .pace .pace-progress {
-    background: #926f5a;
+    background: #6BA6E7cc;
 }
 .headband {
-    background: #926f5a;
+    background: #6BA6E7;
     height: 0;
 }
 .brand {
-    background: #d08e65cc;
+    background: #6BA6E7cc;
 }
 
 //首页头部样式
 .header {
-    width: auto;
-    background: url("../image/global/background.jpg");
-    background-color: #A48777;
+    // width: auto;
+    background-image: url("../image/global/background_1.png");
+    background-color: #6BA6E7cc;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     padding-bottom: 40px;
     .site-meta {
         margin: 20px auto;
         .site-title {
             font-size: 2rem;
             font-family: 'Comic Sans MS', sans-serif;
-            padding-bottom: 5px;
+            line-height: 54px;
             color: #fff;
         }
     }
@@ -33,7 +33,7 @@
         background: #ffffff59;
         padding: 2px 0;
         .menu-item a {
-            color: #555
+            color: #002752;
         }
     }
 }
@@ -41,86 +41,58 @@
 @media (max-width: 767px) {
     .header {
         padding-bottom: 0px;
-        .header-inner {
-            padding-top: 20px;
-        }
-        .site-nav {
-            border: none;
-        }
     }
 }
 
 
+.sidebar::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../image/global/background_1.png");
+    background-color: #6BA6E7;
+    background-position: left;
+    filter: contrast(0.4) opacity(0.2);
+}
 .sidebar {
-    background: #a88773;
-    box-shadow: inset 0 2px 6px #724d38;
-
-    .sidebar-toc-active .sidebar-nav-toc, .sidebar-overview-active .sidebar-nav-overview {
+    background: #6BA6E7;
+    box-shadow: none;
+    .sidebar-nav-toc, .sidebar-nav-overview {
         color: #fff;
-        border-bottom-color: #fff;
-    }
-    .sidebar-nav li {
-        color: inherit;
     }
     .sidebar-inner {
-        color: #e6c5b2;
+        position: relative;
         // 侧栏头像
         .site-author-image {
-            border: 2px solid #fff;
-            border-radius: 100%;
-            background-color: #fff;
+            border-color:#fff;
             margin-top: 20px;
+            cursor pointer;
         }
         //侧边栏信息样式修改
         .site-author-name {
-            margin: 30px 0 0;
-            color: #fff;
             font-family: 'Comic Sans MS', sans-serif;
             font-size: 1.5rem;
         }
         .site-description {
-            color: #e6c5b2;
+            color: #cbe4ff;
         }
         a {
             color: #fff;
-            border-bottom-color: #e6c5b2;
             border-bottom: none;
-        }
-        a:hover {
-            color: #fff;
-        }
-        .site-state .site-state-item {
-            display: inline-block;
-            padding: 8px 28px;
-            border-left: 1px solid #e6c5b2;
-        }
-        .links-of-author {
-            margin-bottom: 70px;
-            .links-of-author-item i {
-                margin-right: 3px;
-            }
-        }
-        //文章目录样式
-        .post-toc {
-           .nav .active > a {
-               color #fff;
-            }
-            ol a {
-                color: #e0c6b5;
-            }
-            ol a:hover {
-                color: #fff;
-            }
         }
     }
 }
-
 //侧栏按钮样式
 .sidebar-toggle:hover .toggle-line{
     background: #ffffff;
 }
 .site-nav-toggle .btn-bar,.back-to-top, .sidebar-toggle {
-    background: #a88772;
+    background: #6BA6E7;
 }
 .back-to-top:hover {
     color: #fff;
@@ -129,50 +101,37 @@
 //首页尾部样式
 .footer-inner {
     font-family: 'Comic Sans MS', sans-serif;
-    color: #a88772;
+}
+
+.pagination {
+    .prev:hover, .next:hover, .page-number:hover {
+        border-top-color: #6BA6E7
+        background: #6ba7e7b3
+    }
+    .page-number.current {
+        background: #6BA6E7;
+        border-color: #6BA6E7;
+    }
 }
 // 首页文章
 .posts-expand {
-    .pagination {
-        .prev:hover, .next:hover, .page-number:hover {
-            border-top-color: #ae866f
-        }
-        .page-number.current {
-            background: #ae866f;
-            border-color: #ae866f;
-        }
-        a {
-           // color: #ae866f;
-        }
-    }
-    .post-block:first-of-type {
-        padding: 25px;
-    }
     .post-block {
         //阴影样式
         margin-top: 60px;
-        margin-bottom: 60px;
         padding: 25px;
-        -webkit-box-shadow: 0 0 14px rgba(202, 203, 203, .5);
-        -moz-box-shadow: 0 0 14px rgba(202, 203, 204, .5);
+        border-radius: 5px;
+        box-shadow: 0 0 14px #6ba5e733;
         //首页阅读全文样式
         .post-button {
-            margin-top: 50px;
-            text-align: center;
             .btn {
                 color: #fff;
-                background: #ae866f;
-                border-radius: 16px;
-                line-height: 2;
-                margin: 0 4px 8px 4px;
-                padding: 0 20px;
-                border: 2px solid #926f5a;
+                background: #6BA6E7;
+                border-radius: 14px;
+                border: 2px solid #6BA6E7;
+                transition: all 0.2s;
             }
-            a{
-                border-bottom: 1px solid #926f5a;
-            }
-            a:hover {
-                color: #fff1ea;
+            .btn:hover {
+                box-shadow: 0px 0px 8px 0px #6ba6e7;
             }
         }
         .post-footer .post-eof {
@@ -180,18 +139,12 @@
         }
         .post-header {
             font-size: inherit;
-            margin-bottom: 30px;
-            .post-title {
-                margin: 20px 0 15px;
-            }
+            margin-bottom: 20px;
         }
         .post-body {
             font-size: 0.96rem;
             a {
                 border-bottom: 1px dashed #999;
-            }
-            .headerlink {
-                border:none;
             }
         }
     }
